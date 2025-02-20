@@ -18,10 +18,10 @@ const words = [
 
   const jautAtbildes = [
     { jautajums: "Kas un kāpēc ir funkcionālā iezīme?", atbilde: "Sistēmā esoša funkcija, kas sastāv vismaz no nosaukuma un scenārija" },
-    { jautajums: "Kādā formātā veidot lietotājstāstus (angļu v. User Story)?", atbilde: "1" },
-    { jautajums: "Kā veidot scenārijus?", atbilde: "1" },
+    { jautajums: "Kādā formātā veidot lietotājstāstus (angļu v. User Story)?", atbilde: "Kā autors, mērķis un pamatojums" },
+    { jautajums: "Kā veidot scenārijus?", atbilde: "Kad -> Ja -> Tad" },
     { jautajums: "Kā Rubika kubs ļauj skatīties uz funkcionālajām iezīmēm?", atbilde: "1" },
-    { jautajums: "Kas ir veiksmīgā iznākuma scenārijs (angļu v. Happy Path Scenario)?", atbilde: "1" },
+    { jautajums: "Kas ir veiksmīgā iznākuma scenārijs (angļu v. Happy Path Scenario)?", atbilde: "Scenarijs, kur funkcijas galvenais aktieris bez jebkadties skersliem sasneidz merki" },
   ]
 
 function Translations() {
