@@ -22,13 +22,30 @@ table > h1
   /* background-color: violet; */
 }
 
-*
-{
-  background-color:red;
-  color: white;
+
+.gradient-background {
+  background: linear-gradient(300deg,deepskyblue,darkviolet,blue,white,#ff0000,#ff0000,#000000,#3f8144,#00ff17,#e600ff,#e600ff,#857687);
+  background-size: 720% 720%;
+  animation: gradient-animation 72s ease infinite;
 }
 
-
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+*
+{
+  background: linear-gradient(300deg,deepskyblue,darkviolet,blue,white,#ff0000,#ff0000,#000000,#3f8144,#00ff17,#e600ff,#e600ff,#857687);
+  background-size: 720% 720%;
+  animation: gradient-animation 72s ease infinite;
+}
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
