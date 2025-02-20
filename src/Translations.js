@@ -17,7 +17,7 @@ const words = [
   ];
 
   const jautAtbildes = [
-    { jautajums: "Kas un kāpēc ir funkcionālā iezīme?", atbilde: "1" },
+    { jautajums: "Kas un kāpēc ir funkcionālā iezīme?", atbilde: "Sistēmā esoša funkcija, kas sastāv vismaz no nosaukuma un scenārija" },
     { jautajums: "Kādā formātā veidot lietotājstāstus (angļu v. User Story)?", atbilde: "1" },
     { jautajums: "Kā veidot scenārijus?", atbilde: "1" },
     { jautajums: "Kā Rubika kubs ļauj skatīties uz funkcionālajām iezīmēm?", atbilde: "1" },
@@ -40,7 +40,7 @@ function Translations() {
     });
 
     return (
-        <>
+        <div class="wrapper" >
             <table border="3">
                 <h1>Gherkin termini</h1>
                 <tr>
@@ -61,7 +61,7 @@ function Translations() {
 
                 { reformattedArray2 }
             </table>
-        </>
+        </div>
     );
 }
 

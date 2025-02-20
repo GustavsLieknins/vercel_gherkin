@@ -5,12 +5,20 @@
   justify-content: center;
   margin-top: 40px;
 }
-
+table
+{
+  margin-top: 10px;
+}
 table > h1
 {
   margin-left: 2px;
 }
-
+.wrapper
+{
+  display: flex;
+  flex-direction: column;
+  width: 100wv;
+}
 
 
 /* .App-logo {
